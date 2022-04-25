@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #07060B;
+  --second-color: #141416;
+  --third-color: #FEFEFE;
+  --fourth-color: #454547;
+  --fifth-color: #777781;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: var(--primary-color);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
